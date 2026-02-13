@@ -5,6 +5,13 @@ edition = "2024"
 description = "A Linux fan control daemon and TUI client using hwmon sysfs"
 license = "MIT"
 authors = ["Pegasus Heavy Industries LLC <pegasusheavyindustries@gmail.com>"]
+repository = "https://github.com/pegasusheavy/linux-fan-utility"
+homepage = "https://github.com/pegasusheavy/linux-fan-utility"
+documentation = "https://docs.rs/linux-fan-utility"
+keywords = ["linux", "fan-control", "hwmon", "tui", "daemon"]
+categories = ["command-line-utilities", "hardware-support"]
+readme = false
+rust-version = "1.85"
 
 [[bin]]
 name = "fanctl-daemon"

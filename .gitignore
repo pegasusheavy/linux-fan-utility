@@ -1,0 +1,4 @@
+/target
+/pkg
+/src/linux-fan-utility
+*.pkg.tar.zst

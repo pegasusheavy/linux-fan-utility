@@ -1,0 +1,14 @@
+[Unit]
+Description=Linux Fan Control Daemon
+After=local-fs.target
+DefaultDependencies=no
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/fanctl-daemon
+ExecStopPost=/bin/sh -c 'for f in /sys/class/hwmon/*/pwm*_enable; do [ -f "$f" ] && echo 2 > "$f" 2>/dev/null; done'
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

@@ -4,11 +4,11 @@ pkgver=0.1.0
 pkgrel=1
 pkgdesc="A Linux fan control daemon and TUI client using hwmon sysfs"
 arch=('x86_64')
-url="https://github.com/pegasusheavy/linux-fan-utility"
+url="https://github.com/quinnjr/linux-fan-utility"
 license=('MIT')
 depends=('gcc-libs')
 makedepends=('cargo')
-source=("$pkgname-$pkgver.tar.gz::https://github.com/pegasusheavy/linux-fan-utility/archive/refs/tags/v$pkgver.tar.gz")
+source=("$pkgname-$pkgver.tar.gz::https://github.com/quinnjr/linux-fan-utility/archive/refs/tags/v$pkgver.tar.gz")
 sha256sums=('e1b2a746ea74bf106e487e29fdcd321368e83e14aafaee3a0c353a389827c98d')
 
 prepare() {

@@ -1,4 +1,4 @@
-// Copyright (c) 2026 Pegasus Heavy Industries LLC
+// Copyright (c) 2026 Joseph R. Quinn
 // Licensed under the MIT License
 
 //! Fan curve definitions and interpolation.
